@@ -1,20 +1,73 @@
-# VIWell
 
-Requirements:
+# VIWELL React Native Assessment
 
-1. `"react-native": "0.74.3"`
-2. `Node Version: v20.11.0`
+A React Native application featuring a product listing screen and a detailed product view, allowing users to add or remove products from their favorites list.
 
-Installation:
 
-Follow the following steps to install the project after cloning it successfully to your system.
+## Demo
 
-1. `npm install`
+https://github.com/ArslanYounis/viwell-assessment/blob/main/assets/images/demo/products.png
+https://github.com/ArslanYounis/viwell-assessment/blob/main/assets/images/demo/favorite.png
+https://github.com/ArslanYounis/viwell-assessment/blob/main/assets/images/demo/detail.png
 
-Running:
 
-1. for running project on android:
-   `npm run android`
 
-2. for running project on ios:
-   `npm run ios`
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/ArslanYounis/viwell-assessment.git
+```
+
+Go to the project directory
+
+```bash
+  cd viwell-assessment
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Run On Android
+
+```bash
+  npm run android
+```
+
+Run On Ios
+
+```bash
+  npm run ios
+```
+
+
+
+
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  npm run test
+```
+
+
+## Unit Test Result
+
+ https://github.com/ArslanYounis/viwell-assessment/blob/main/assets/images/demo/unit-test.png
+
+
+## Tech Stack
+
+**React Native | TYpescript | Expo | Redux Toolkit | RTK Query | Tamagui**
+
+
+## Requirements
+
+- `"react-native": "0.74.3"`
+- `Node Version: v20.11.0`
+

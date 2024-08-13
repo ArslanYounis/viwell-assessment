@@ -44,7 +44,7 @@ const BottomTabNavigator = () => {
         width: '$0',
         height: '$-10',
       }}
-      elevation={Platform.OS === 'android' ? 3 : 0}
+      elevation={Platform.OS === 'android' ? 12 : 0}
     >
       {btRoutesList.map(route => (
         <YStack
